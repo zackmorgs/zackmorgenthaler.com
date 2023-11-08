@@ -12,8 +12,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main className={styles.main}>
-
-        <img className={styles.profile} src="/img/playing-guitar.jpg"></img>
+        <div className={styles.image_container} >
+          <img className={styles.profile} src="/img/playing-guitar.jpg"></img>
+        </div>
         <h1>Zack Morgenthaler</h1>
         <p className={styles.subheading}>Programmer, Music Maker, and Artist</p>
         <Link href="/about" className="btn btn-primary">

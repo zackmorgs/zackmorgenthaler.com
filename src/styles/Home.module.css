@@ -3,7 +3,7 @@
   text-align:center;
   margin:1rem;
   background:white;
-  padding-bottom:2rem;
+  padding:2rem;
   box-shadow: 1px 1px 13px 0px #0000005c;
   border-top-left-radius:0.5rem;
 }
@@ -15,4 +15,7 @@
 }
 .subheading {
   margin:0rem 0rem;
+}
+.image_container {
+  margin:-2rem -2rem 0rem -2rem;
 }

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 :root {
   background-color:white;
   color:#3a3939;
@@ -91,7 +96,10 @@ h1 {
 p {
   font-family: 'Roboto', sans-serif;
 }
-
+span.material-symbols-outlined {
+  top: 5px;
+  position: relative;
+}
 #nav-main {
   background-color:white;
   padding:1rem;
@@ -200,16 +208,19 @@ p {
 
 
 .btn {
-  margin-top:1.5rem;
-  text-decoration:none;
-  display:inline-block;
-  padding:0.75rem 1rem;
-  font-family:'Roboto', sans-serif;
-  text-transform:uppercase;
-  border:2px solid #c9c9c9;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  display: block;
+  padding: 0.75rem 1rem;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  border: 2px solid #c9c9c9;
   /* box-shadow: 1px 1px 13px 0px #0000005c; */
-
+  line-height: 28px;
+  text-align: center;
+  color: black;
 }
+
 .btn-primary {
   color:white;
   background-color:#0964e5;

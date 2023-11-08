@@ -12,8 +12,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1>Blog</h1>
-        
+        <section className={styles.hero}>
+          <h1>Blog</h1>
+        </section>
+        <section className={styles.content}>
+          <p>This page is under construction!</p>
+        </section>
       </main>
     </>
   )

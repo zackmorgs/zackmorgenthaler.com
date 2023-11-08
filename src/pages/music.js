@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <h1>Music</h1>
-        
+        <p>This page is under construction! Come back later.</p>
       </main>
     </>
   )

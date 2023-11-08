@@ -1,6 +1,3 @@
-# Reddit Fixed it!
-Thanks to u/xD3I for helping a noob out with this project. I fixed it by creating a component in ./src/components. Apparently ./pages/_document.js is only for server side code.
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

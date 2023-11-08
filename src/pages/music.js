@@ -12,8 +12,30 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1>Music</h1>
-        <p>This page is under construction! Come back later.</p>
+        <section className={styles.hero}>
+          <h1>Music</h1>
+        </section>
+        <section className={styles.content}>
+          <p>You can find my work with Amienus on Discogs!</p>
+          <a className={styles.btn_discogs} href="https://www.discogs.com/artist/3429641-Zack-Morgenthaler">
+            <Image src="/img/discogs-logo.svg" width={64} height={32} />
+          </a>
+        </section>
+        <section>
+          <h2>Metal Bands</h2>
+          <ul>
+            <li>
+              <a href="https://facebook.com/Amiensus">
+                Amiensus
+              </a>
+            </li>
+            <li>
+              <a href="https://facebook.com/phantasmora">
+                Phantasmora
+              </a>
+            </li>
+          </ul>
+        </section>
       </main>
     </>
   )

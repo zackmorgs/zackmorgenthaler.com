@@ -21,6 +21,16 @@
 .hero {
   /* background:yellow; */
 }
+.contacts {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-direction:column;
+}
+.contacts .btn {
+  margin-top:1rem;
+}
 @media (min-width: 640px) {
   
 }

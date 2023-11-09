@@ -12,12 +12,12 @@ export default function About() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main className={styles.main}>
-        <section className="hero">
+        <header className="hero">
           <div className={styles.image_container}>
             <img id={styles.about_profile} src="/img/zack-and-karyna.jpg"></img>
           </div>
           <h1>About</h1>
-        </section>
+        </header>
         <section className="intro">
           <p className="subheading">Hi! I'm Zack. 👋</p>
           <p>I'm a programmer, musician, designer, and artist. I am based in Rochester, Minnesota.</p>  
@@ -29,8 +29,9 @@ export default function About() {
           <p>To see a list of companies I've worked for in the past please head over to my <Link href="/portfolio">portfolio page</Link>. </p>
         </section>
         <section id="skills">
-          <h3>Programmign Languages</h3>
+          <h3>Programming Languages</h3>
           <p>I've been programming since a summer camp in what I believe is 2008. It was a Visual Basic summer camp.</p>
+          <p>I picked up where I left off learning C++ at <a href="https://whitworth.edu/">Whitworth</a>. It was here that I first learned about data structures and algorithms. I wouldn't be where I am today without a good education from them.</p>
           <p>For programming, I do most of my work in C#, Node.js, JavaScript, CSS/SCSS, and of course HTML.</p>
           <p>However, here is a more extensive list of langauges I am familiar with using:</p>
           <ul className={styles.skill}>
@@ -46,14 +47,14 @@ export default function About() {
         </section>
         <section id="audio_production">
           <h3>Audio Production</h3>  
-          <p>For music while I have worked in Pro Tools and Logic Pro X, these days I do my work in Reaper for my DAW. It is a joy to compose music as well as mix and master my own songs.</p>
+          <p>For music and audio production I have worked in Pro Tools and Logic Pro X in past. These days I do my work in Reaper for my DAW. It is a joy to compose music as well as mix and master my own songs.</p>
         </section>
         <section id="video_production">
           <h3>Video Production</h3>
           <p>I have also edited video in Final Cut Pro X and Adobe Premiere Pro.</p>
         </section>
         <section id="aftward">
-          <h3>Get In Touch</h3>
+          <h4>Get In Touch</h4>
           <p>For all inquiries please see my <Link href="/contact">contact page.</Link></p>
         </section>
       </main>

@@ -24,6 +24,9 @@ export default function Navigation() {
             </div>
             <ul id="nav-list">
                 <li>
+                    <Link href="/about" onClick={handleBurgerClick}>About</Link>
+                </li>
+                <li>
                     <Link href="/contact" onClick={handleBurgerClick}>Contact</Link>
                 </li>
                 <li>

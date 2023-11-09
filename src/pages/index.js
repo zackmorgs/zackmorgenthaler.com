@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Zack Morgenthaler</title>
+        <title>Zack Morgenthaler | Homepage</title>
         <meta name="description" content="A personal website " />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
@@ -20,6 +20,40 @@ export default function Home() {
         <Link href="/about" className="btn btn-primary">
           About Me
         </Link>
+        <ul id="social_links">
+          {[
+            {
+              url: "https://www.facebook.com/zackmorgs/",
+              icon: <Image className="social-icon" src="/img/icon-fb.svg" width={365} height={365} alt="Facebook Logo" />
+            },
+            {
+              url: "https://soundcloud.com/zack-morgenthaler-505021258",
+              icon: <Image className="social-icon" src="/img/icon-soundcloud.svg" width={365} height={365} alt="Soundcloud Logo" />
+            },
+            {
+              url:"https://www.linkedin.com/in/zackmorgenthaler",
+              icon: <Image className="social-icon" src="/img/icon-linkedin.svg" width={365} height={365} alt="Soundcloud Logo" />
+            },
+            {
+              url: "https://www.youtube.com/@ZackMorgenthaler",
+              icon: <Image className="social-icon" src="/img/icon-youtube.svg" width={365} height={365} alt="YouTube Logo" />
+            },
+            {
+              url:"https://www.deviantart.com/zackmorgenthaler",
+              icon:  <Image className="social-icon" src="/img/icon-deviantart.svg" width={365} height={365} alt="Deviant Art Logo" />
+            },
+            {
+              url: "https://twitter.com/zackmorg",
+              icon: <Image className="social-icon" src="/img/icon-x.svg" width={365} height={365} alt="X/Twitter Logo" />
+            }
+          ].map((social, index) => (
+              <li key={index}>
+                <a className="btn" href={social.url}>
+                  {social.icon}
+                </a>
+              </li>
+            ))}
+        </ul>
       </main>
     </>
   )

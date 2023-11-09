@@ -16,10 +16,10 @@ export default function Contact() {
           <h1>Contact</h1>
         </section>
         <section className={styles.content}>
-        <p>Want to drop me a line?</p>
-        <p>Feel free to contact me through the following channels:</p>
-        <a className="btn" href="mailto:zackmorgenthaler@gmail.com"><span class="material-symbols-outlined icon">mail</span> Email</a>
-        <a className="btn" href="tel:+15072511772"><span class="material-symbols-outlined icon">call</span> Phone</a>
+          <p className="subheading">Want to drop me a line?</p>
+          <p>Feel free to contact me through the following channels:</p>
+          <a className="btn" href="tel:+15072511772"><span class="material-symbols-outlined icon">call</span> Phone</a>
+          <a className="btn" href="mailto:zackmorgenthaler@gmail.com"><span class="material-symbols-outlined icon">mail</span> Email</a>
         </section>
       </main>
     </>

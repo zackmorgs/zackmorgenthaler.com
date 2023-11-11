@@ -18,7 +18,7 @@ export default function Contact() {
         <section className={styles.content}>
           <p className="subheading">Want to drop me a line?</p>
           <p>Feel free to contact me through the following channels:</p>
-          <ul className={styles.contacts}>
+          <ul className="btn-list">
             <li>
               <a className="btn" href="tel:+15072511772"><span class="material-symbols-outlined icon">call</span> Phone</a>
             </li>

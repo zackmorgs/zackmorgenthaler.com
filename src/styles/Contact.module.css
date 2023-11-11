@@ -1,11 +1,5 @@
 .main {
-  color:black;
   text-align:left;
-  margin:1rem;
-  background:white;
-  padding:2rem;
-  box-shadow: 1px 1px 13px 0px #0000005c;
-  border-top-left-radius:0.5rem;
 }
 
 .profile {

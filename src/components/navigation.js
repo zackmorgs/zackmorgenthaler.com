@@ -30,6 +30,9 @@ export default function Navigation() {
                     <Link href="/contact" onClick={handleBurgerClick}>Contact</Link>
                 </li>
                 <li>
+                    <Link href="/portfolio" onClick={handleBurgerClick}>Portfolio</Link>
+                </li>
+                <li>
                     <Link href="/blog" onClick={handleBurgerClick}>Blog</Link>
                 </li>
                 <li>

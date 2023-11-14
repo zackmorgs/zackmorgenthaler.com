@@ -39,8 +39,8 @@ export default function About() {
           </section>
           <section id="skills" className={styles.column}>
             <h3>Programming Languages</h3>
-            <p>I&apos;ve been programming since a summer camp in what I believe is 2008. It was a Visual Basic summer camp.</p>
-            <p>I picked up where I left off learning C++ at <a href="https://whitworth.edu/">Whitworth</a> among a multitude of other langauges. It was here that I first learned about data structures and algorithms. I wouldn&apos;t be where I am today without a good education from them.</p>
+            <p>The story starts in high school where I was a super cool kid who spent his summer in a coding camp learning Visual Basic.</p>
+            <p>I picked up where I left off learning C++ at <a href="https://whitworth.edu/">Whitworth</a> among a multitude of other langauges. It was here that I first learned about data structures and algorithms.</p>
             <p>For programming, I do most of my work in C#, Node.js, JavaScript, CSS/SCSS, and of course HTML.</p>
             <p>However, here is a more extensive list of langauges I am familiar with using:</p>
             <ul className={styles.skill}>

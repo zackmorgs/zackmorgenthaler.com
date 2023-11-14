@@ -36,9 +36,9 @@ export default function Navigation() {
                     <li>
                         <Link href="/portfolio" className={router.pathname == "/porfolio" ? "active" : ""} onClick={handleBurgerClick}>Portfolio</Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link href="/blog" className={router.pathname == "/blog" ? "active" : ""} onClick={handleBurgerClick}>Blog</Link>
-                    </li>
+                    </li> */}
                     <li>
                         <Link href="/music" className={router.pathname == "/music" ? "active" : ""} onClick={handleBurgerClick}>Music</Link>
                     </li>

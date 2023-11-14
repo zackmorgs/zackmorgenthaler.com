@@ -35,3 +35,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+## Todo
+- change about image to different image this site is about me not karyna so its not appropriate
+- consider frontpage image to my current facebook profile picture
+- consider frontpage image to music image
+- write down instruments i play
+- write about what kinds of music i create on /music, maybe consider putting influences on there as well.
+    - "I'm a person who has been drawn to many different styles" "I dont like limiting myself to one genre."
+- insert github profile somewhere

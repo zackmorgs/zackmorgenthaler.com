@@ -18,7 +18,7 @@ export default function Home() {
         <section className={styles.content}>
           <p>You can find my work with Amienus on Discogs!</p>
           <a className={styles.btn_discogs} href="https://www.discogs.com/artist/3429641-Zack-Morgenthaler">
-            <Image src="/img/discogs-logo.svg" width={64} height={32} />
+            <Image src="/img/discogs-logo.svg" width={64} height={32} alt="Discogs Logo (Link to my Discogs Page)" />
           </a>
         </section>
         <section>

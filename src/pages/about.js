@@ -15,14 +15,14 @@ export default function About() {
         <div id={styles.card} className="md:flex-row justify-center space-between">
           <header className="hero">
             <div className={styles.image_container}>
-              <Image id={styles.about_profile} src="/img/zack-and-karyna.jpg" width={1024} height={1024} />
+              <Image id={styles.about_profile} src="/img/zack-and-karyna.jpg" width={1024} height={1024} alt="Zack and Karyna" />
             </div>
           </header>
           <div className={styles.about}>
             <h1>About</h1>
-            <p className="subheading">Hi! I'm Zack. 👋</p>
-            <p>I'm a programmer, musician, designer, and artist. I am based in Rochester, Minnesota.</p>
-            <p>Thanks for visiting my website! I hope it gives you a good feel for who I am and what I'm all about.</p>
+            <p className="subheading">Hi! I&apos;m Zack. 👋</p>
+            <p>I&apos;m a programmer, musician, designer, and artist. I am based in Rochester, Minnesota.</p>
+            <p>Thanks for visiting my website! I hope it gives you a good feel for who I am and what I&apos;m all about.</p>
             {/* <Link className="btn" href="/portfolio">Portfolio</Link> */}
           </div>
         </div>
@@ -31,16 +31,16 @@ export default function About() {
           <section className={styles.column}>
             <h3>Education</h3>
             <p>I studied Computer Science and Graphic Design at <a href="https://whitworth.edu">Whitworth University</a>.</p>
-            <p>I wouldn't be where I am today without the excellent education they provided.</p>
+            <p>I wouldn&apos;t be where I am today without the excellent education they provided.</p>
             <h3>Work History</h3>
-            <p>In the past I've worked at <a href="https://www.aasmnet.org/">AASM</a>, <a href="https://trinity.one/">Trinity.One</a> and <a href="https://www.facebook.com/CSIOnsiteBloomington/">CSI Tech Corp</a>.</p>
-            <p>Recently, I've started my own company over at <a href="https://apportal.io">APPportal</a></p>
-            <p>To see a list of companies I've worked for in the past please head over to my <Link href="/portfolio">portfolio page</Link>. </p>
+            <p>In the past I&apos;ve worked at <a href="https://www.aasmnet.org/">AASM</a>, <a href="https://trinity.one/">Trinity.One</a> and <a href="https://www.facebook.com/CSIOnsiteBloomington/">CSI Tech Corp</a>.</p>
+            <p>Recently, I&apos;ve started my own company over at <a href="https://apportal.io">APPportal</a></p>
+            <p>To see a list of companies I&apos;ve worked for in the past please head over to my <Link href="/portfolio">portfolio page</Link>. </p>
           </section>
           <section id="skills" className={styles.column}>
             <h3>Programming Languages</h3>
-            <p>I've been programming since a summer camp in what I believe is 2008. It was a Visual Basic summer camp.</p>
-            <p>I picked up where I left off learning C++ at <a href="https://whitworth.edu/">Whitworth</a> among a multitude of other langauges. It was here that I first learned about data structures and algorithms. I wouldn't be where I am today without a good education from them.</p>
+            <p>I&apos;ve been programming since a summer camp in what I believe is 2008. It was a Visual Basic summer camp.</p>
+            <p>I picked up where I left off learning C++ at <a href="https://whitworth.edu/">Whitworth</a> among a multitude of other langauges. It was here that I first learned about data structures and algorithms. I wouldn&apos;t be where I am today without a good education from them.</p>
             <p>For programming, I do most of my work in C#, Node.js, JavaScript, CSS/SCSS, and of course HTML.</p>
             <p>However, here is a more extensive list of langauges I am familiar with using:</p>
             <ul className={styles.skill}>

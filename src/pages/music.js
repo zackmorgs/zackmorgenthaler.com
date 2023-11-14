@@ -14,6 +14,9 @@ export default function Home() {
       <main className={styles.main}>
         <section className={styles.hero}>
           <h1>Music</h1>
+          <p className="subheading">
+            Cause music makes the world go round!
+          </p>
         </section>
         <section className={styles.content}>
           <p>You can find my work with Amienus on Discogs!</p>
@@ -23,7 +26,7 @@ export default function Home() {
         </section>
         <section>
           <h2>Soundcloud</h2>
-          <a className="btn" href="https://soundcloud.com/zack-morgenthaler-505021258">
+          <a id={styles.soundcloud_btn} className="btn" href="https://soundcloud.com/zack-morgenthaler-505021258">
             <Image className="social-icon" src="/img/icon-soundcloud.svg" width={365} height={365} alt="Soundcloud Logo" />
           </a>
         </section>

@@ -40,7 +40,16 @@
   
 }
 @media (min-width: 1280px) {
-  
+  .main {
+    margin:1rem auto;
+  }
+  #soundcloud_btn {
+    display:inline-block;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;;
+    max-width:35ch;
+  }
 }
 @media (min-width: 1536px) {
   

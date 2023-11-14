@@ -22,6 +22,12 @@ export default function Home() {
           </a>
         </section>
         <section>
+          <h2>Soundcloud</h2>
+          <a className="btn" href="https://soundcloud.com/zack-morgenthaler-505021258">
+            <Image className="social-icon" src="/img/icon-soundcloud.svg" width={365} height={365} alt="Soundcloud Logo" />
+          </a>
+        </section>
+        <section>
           <h2>Metal Bands</h2>
           <ul>
             <li>

@@ -1,5 +1,7 @@
 .main {
   text-align:left;
+  margin:1rem 1rem;
+  /* max-width:120ch; */
 }
 
 .profile {
@@ -17,25 +19,37 @@
 }
 .contacts {
   list-style-type:none;
-  margin:0;
+  margin:0 auto;
   padding:0;
   display:flex;
   flex-direction:column;
+  max-width:55ch;
 }
 .contacts .btn {
   margin-top:1rem;
+}
+.social {
+  text-align:center;
 }
 @media (min-width: 640px) {
   
 }
 @media (min-width: 768px) {
-  
+  .social {
+    text-align:left;
+  }
+  .social_links {
+    margin:2rem auto 0 0 !important;
+  }
 }
 @media (min-width: 1024px) {
-  
+
 }
 @media (min-width: 1280px) {
-  
+  .main {
+    margin:1rem auto;
+  }
+
 }
 @media (min-width: 1536px) {
   

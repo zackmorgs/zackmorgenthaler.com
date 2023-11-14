@@ -27,7 +27,7 @@ export default function Page() {
           <h3>Work History</h3>
           <p>In the past I've worked at <a href="https://www.aasmnet.org/">AASM</a>, <a href="https://trinity.one/">Trinity.One</a> and <a href="https://www.facebook.com/CSIOnsiteBloomington/">CSI Tech Corp</a>. These companies also worked for the other companies listed below.</p>
         </section>
-        <section className={styles.section}>
+        <section>
           <h3>Companies</h3>
           <p>Here is a list of companies I have worked for whether it was UX studies, design, or fullstack web development on a brand new site.</p>
           <ul className={styles.companies}>
@@ -40,13 +40,13 @@ export default function Page() {
             ))}
           </ul>
         </section>
-        <section id="contact" className={styles.contact}>
+        {/* <section id="contact" className={styles.contact}>
           <h4>Get In Touch</h4>
           <p>For all inquiries please see my <Link href="/contact">contact page.</Link></p>
           <Link href="/contact" className="btn">
             Contact
           </Link>
-        </section>
+        </section> */}
       </main>
     </>
   )

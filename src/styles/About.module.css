@@ -6,6 +6,7 @@
   padding:2rem;
   box-shadow: 1px 1px 13px 0px #0000005c;
   border-top-left-radius:0.5rem;
+  margin:1rem 1rem;
 }
 
 #about_profile {
@@ -20,12 +21,19 @@
   
 }
 @media (min-width: 768px) {
-  .column {
+  .image_container {
+    margin:0;
+  }
+  .about {
     padding:0 2rem;
   }
   .mw_column {
     max-width:50ch;
-    margin:0 auto;
+    /* margin:0 auto; */
+  }
+  .column {
+    /* max-width:35ch; */
+    padding:0 2rem;
   }
   #about_profile {
     margin:0;
@@ -35,15 +43,33 @@
     margin:0 auto;
     text-align:left;
   }
+  #card {
+    box-shadow: 1px 1px 13px 0px #00000017;
+    border-radius: 1rem;
+    /* margin:-2rem -2rem 0; */
+    overflow: hidden;
+    align-items: center;
+    height:45ch;
+  }
+  /* #contact {
+    margin:0 auto;
+  } */
 }
 @media (min-width: 1024px) {
-
   .image_container {
     margin:0;
   }
 }
 @media (min-width: 1280px) {
-  
+  .main {
+    margin:1rem auto;
+  }
+  .column {
+    padding:0 2rem;
+  }
+  .contact {
+    padding:0 2rem;
+  }
 }
 @media (min-width: 1536px) {
   

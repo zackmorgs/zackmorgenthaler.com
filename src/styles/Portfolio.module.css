@@ -36,11 +36,11 @@
 }
 @media (min-width: 768px) {
     .section {
-        max-width:50ch;
+
         /* margin:0 auto; */
     }
     .companies {
-        grid-template-columns:1fr 1fr 1fr;
+        grid-template-columns:1fr 1fr 1fr 1fr;
     }
     .contact {
         max-width:50ch;
@@ -56,6 +56,9 @@
 @media (min-width: 1280px) {
     .companies {
         grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    }
+    .main {
+        margin:1rem auto;
     }
 }
 

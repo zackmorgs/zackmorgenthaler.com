@@ -16,7 +16,7 @@
 }
 .btn_discogs {
   background:grey;
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
   text-decoration: none;
   display: block;
   padding: 0.75rem 1rem;
@@ -27,7 +27,9 @@
 
   text-align: center;
   color: black;
+  display:inline-block;
 }
+
 @media (min-width: 640px) {
   
 }

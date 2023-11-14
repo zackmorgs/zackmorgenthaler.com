@@ -35,26 +35,3 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## Todo
-- replace pictures on studio
-- zack page
-    - remove "(and growing)" from my zack's page
-    - kelsey says i need to add more work history
-- Services
-    - remove "custom icons and illustrations" from web design and put in redesign services
-    - remove "hosting" from e-commerce bullet points, add "ux testing"
-    - for cards on these pages, make the cursor do default cursor icon
-    - border-radius for cards needs to be consistent
-- services/web-design
-    - reword second "whether" at bottom of first section
-    - add contact button to bottom of page for web-design (banner would work)
-- services/ai
-    - add banner
-- services/e-com
-    - add UX Testing to services.
-- services/branding
-    - make cards have hover behavior like that of other pages
-- /team
-    - redesign this into one page. start with zack's page and put content from both together.
-- /contact
-    - consider removing budget and replacing it with timeframe

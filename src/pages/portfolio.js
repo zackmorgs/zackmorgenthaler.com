@@ -25,7 +25,7 @@ export default function Page() {
         </section> */}
         <section className={styles.section}>
           <h3>Work History</h3>
-          <p>In the past I&apos;ve worked at <a href="https://www.aasmnet.org/">AASM</a>, <a href="https://trinity.one/">Trinity.One</a> and <a href="https://www.facebook.com/CSIOnsiteBloomington/">CSI Tech Corp</a>. These companies also worked for the other companies listed below.</p>
+          <p>In the past I&apos;ve worked at <a href="https://www.aasmnet.org/">AASM</a>, <a href="https://trinity.one/">Trinity.One</a> and <a href="https://www.facebook.com/CSIOnsiteBloomington/">CSI Tech Corp</a>. These companies also supported and created solutions for the other companies listed below.</p>
         </section>
         <section>
           <h3>Companies</h3>

@@ -66,7 +66,7 @@ export default function About() {
           <section id={styles.video_production}  className={styles.column}>
             <h3>Video Production</h3>
             <p>I have also edited video in Final Cut Pro X and Adobe Premiere Pro.</p>
-            <p>I used to know a bit of After Effects but that knowledge is long gone.</p>
+            {/* <p>I used to know a bit of After Effects but that knowledge is long gone.</p> */}
           </section>
         </div>
         {/* <div className="md:flex-row justify-left lg:space-around">

@@ -8,7 +8,7 @@ export default function About() {
     <>
       <Head>
         <title>Zack Morgenthaler | About</title>
-        <meta name="description" content="A personal website " />
+        <meta name="description" content="Zack Morgenthaler | About" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main className={styles.main}>

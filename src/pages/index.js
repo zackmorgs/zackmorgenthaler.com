@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Head>
         <title>Zack Morgenthaler | Homepage</title>
-        <meta name="description" content="A personal website " />
+        <meta name="description" content="Zack Morgenthaler | Homepage" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main className={styles.main}>

@@ -7,7 +7,7 @@ export default function Contact() {
     <>
       <Head>
         <title>Contact</title>
-        <meta name="description" content="Contact information for Zack Morgenthaler" />
+        <meta name="description" content="Zack Morgenthaler | Contact" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

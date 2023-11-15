@@ -11,7 +11,7 @@ export default function Page() {
     <>
       <Head>
         <title>Zack Morgenthaler | Portfolio</title>
-        <meta name="description" content="Zack Morgenthaler's Portfolio page" />
+        <meta name="description" content="Zack Morgenthaler | Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main className={styles.main}>

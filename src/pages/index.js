@@ -24,6 +24,12 @@ export default function Home() {
                 About Me
               </Link>
             </section>
+            <section>
+              <h4>GitHub</h4>
+              <a className="btn" href="https://github.com/zackmorgs">
+                <Image className="social-icon" src="/img/icon-github.svg" width={365} height={365} alt="GitHub Logo" />
+              </a>
+            </section>
             <section className={styles.social}>
               <h4>Other Sites</h4>
               <ul id="social_links">

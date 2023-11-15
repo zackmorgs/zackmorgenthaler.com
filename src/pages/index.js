@@ -14,7 +14,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className="lg:flex-row justify-center align-center space-around">
           <div className={styles.image_container} >
-            <Image className={styles.profile} src="/img/playing-guitar.jpg" width={1280} height={1280} alt="Zack Morgenthaler" />
+            <Image className={styles.profile} src="/img/pro-shot.jpg" width={1280} height={1280} alt="Zack Morgenthaler" />
           </div>
           <div className={styles.column}>
             <section className={styles.cta}>

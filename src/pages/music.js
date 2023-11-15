@@ -13,6 +13,9 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <section className={styles.hero}>
+          {/* <div className={styles.image_container}>
+            <Image className={styles.profile} src="/img/playing-guitar.jpg" width={1280} height={1280} alt="Zack playing guitar"/>
+          </div> */}
           <h1>Music</h1>
           <p className="subheading">
             Cause music makes the world go round!

@@ -51,8 +51,8 @@ export default function Home() {
                     icon: <Image className="social-icon" src="/img/icon-youtube.svg" width={365} height={365} alt="YouTube Logo" />
                   },
                   {
-                    url: "https://www.deviantart.com/zackmorgenthaler",
-                    icon: <Image className="social-icon" src="/img/icon-deviantart.svg" width={365} height={365} alt="Deviant Art Logo" />
+                    url: "https://www.behance.net/zackmorgenthaler89aa",
+                    icon: <Image className="social-icon" src="/img/icon-behance.svg" width={365} height={365} alt="Behance Logo" />
                   },
                   {
                     url: "https://twitter.com/zackmorg",

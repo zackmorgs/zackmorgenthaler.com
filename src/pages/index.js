@@ -39,7 +39,7 @@ export default function Home() {
                     icon: <Image className="social-icon" src="/img/icon-fb.svg" width={365} height={365} alt="Facebook Logo" />
                   },
                   {
-                    url: "https://soundcloud.com/zack-morgenthaler-505021258",
+                    url: "https://soundcloud.com/zackmorgenthaler",
                     icon: <Image className="social-icon" src="/img/icon-soundcloud.svg" width={365} height={365} alt="Soundcloud Logo" />
                   },
                   {

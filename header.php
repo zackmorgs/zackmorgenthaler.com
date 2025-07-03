@@ -25,3 +25,11 @@
 </head>
 
 <body <?php body_class(); ?>>
+  <nav id="nav_main">
+    <ul id="nav_list">
+      <li><a href="/about/">About</a></li>
+      <li><a href="/listen/">Portfolio</a></li>
+      <li><a href="/shows/">Music</a></li>
+      <li><a href="/shows/">Contact</a></li>
+    </ul>
+  </nav>

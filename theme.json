@@ -18,9 +18,9 @@
     "typography": {
       "fontFamilies": [
         {
-          "fontFamily": "Inter, sans-serif",
-          "slug": "inter",
-          "name": "Inter"
+          "fontFamily": "Prata, serif",
+          "slug": "prata",
+          "name": "Prata"
         }
       ]
     },

@@ -7,8 +7,8 @@
     "build": "npm-run-all -p build:*",
     "build:js": "esbuild ./assets/script.js --minify --sourcemap --outfile=./assets/script.min.js",
     "watch:js": "esbuild ./assets/script.js --minify --sourcemap --outfile=./assets/script.min.js --watch",
-    "build:css": "npx postcss ./css/style.dev.css --use autoprefixer --output ./css/style.css",
-    "watch:css": "npx postcss ./css/style.dev.css --use autoprefixer --output ./css/style.css --watch"
+    "build:css": "npx postcss ./style.dev.css --use autoprefixer --output ./style.css",
+    "watch:css": "npx postcss ./style.dev.css --use autoprefixer --output ./style.css --watch"
   },
   "keywords": [],
   "author": "",

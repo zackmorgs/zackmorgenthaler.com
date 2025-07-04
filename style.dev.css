@@ -4,3 +4,154 @@ Author: zackmorgs
 Description: Custom theme for the website zackmorgenthaler.com
 Version: 1.0
 */
+
+@font-face {
+    font-family: 'Requiem';
+    src: url('/wp-content/themes/zackmorgenthaler.com/assets/fonts/RequiemDisplay-HTF-Roman.woff2') format('woff2'),
+        url('/wp-content/themes/zackmorgenthaler.com/assets/fonts/RequiemDisplay-HTF-Roman.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Requiem', serif;
+    font-size: 18px;
+    font-rendering: optimizeLegibility;
+    margin: 0;
+    position: relative;
+}
+
+.w-full {
+    width: 100%;
+}
+
+a {
+    color: #d71643;
+    text-decoration: none;
+}
+
+#nav_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background: linear-gradient(45deg, #e3e3e3ad, #fefefeb5);
+    box-shadow: inset 8px 5px 1rem #b7b7b7;
+    backdrop-filter: blur(1rem);
+}
+
+#nav_toggle {
+    font-family: 'Requiem', serif;
+    font-size: 1.25rem;
+    border: none;
+    background: transparent;
+    padding: 1rem;
+    color: #d71643;
+}
+
+#header_index {
+
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    p {
+        color: #222;
+    }
+}
+
+.header-text {
+    padding: 1rem 1rem;
+    text-align: center;
+
+    h1 {
+
+        margin: 0 0 0.5rem;
+        font-size: 2.75rem;
+        line-height: 1.5em;
+    }
+
+    p {
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+}
+
+#social_nav {
+    padding: 1rem;
+    text-align: center;
+    color: #d71643;
+
+    ul {
+        margin: 0;
+        list-style-type: none;
+        padding: 0;
+    }
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
+    border: 2px solid #c5c5c5;
+    text-decoration: none;
+
+    .icon {
+        max-width: 3.75rem;
+    }
+
+
+}
+
+
+.btn-primary {
+    background-color: #0964e5;
+    color: white;
+    border: none;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+
+.btn-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    justify-content: space-between;
+
+    .btn {
+        height: 6rem;
+    }
+}
+
+#main_content {
+    padding: 1rem;
+}
+
+#footer_main {
+    padding: 1rem;
+}

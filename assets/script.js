@@ -9,6 +9,20 @@ const handleNavState = () => {
     });
 };
 
+const handleActiveNavLink = () => {
+    const currentPath = window.location.pathname;
+    const navLinks = document.querySelectorAll('#nav_main .nav-link');
+    navLinks.forEach(link => {
+        const linkPath = link.getAttribute('href');
+        if (linkPath === currentPath) {
+            link.classList.add('active');
+        } else {
+            link.classList.remove('active');
+        }
+    });
+};
+
 document.addEventListener('DOMContentLoaded', () => {
     handleNavState();
+    handleActiveNavLink();
 });

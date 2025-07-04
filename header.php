@@ -15,4 +15,33 @@
         Menu
       </button>
     </div>
+    <div id="nav_links">
+      <ul class="nav-list">
+        <li>
+          <a href="/about/" class="nav-link">
+            About
+          </a>
+        </li>
+        <li>
+          <a href="/blog/" class="nav-link">
+            Blog
+          </a>
+        </li>
+        <li>
+          <a href="/contact/" class="nav-link">
+            Contact
+          </a>
+        </li>
+        <li>
+          <a href="/portfolio/" class="nav-link">
+            Portfolio
+          </a>
+        </li>
+        <li>
+          <a href="/music/" class="nav-link">
+            Music
+          </a>
+        </li>
+      </ul>
+    </div>
   </nav>

@@ -35,7 +35,7 @@
         </a>
       </li>
       <li>
-        <a href="" class="btn">
+        <a href="https://x.com/zackmorg" class="btn">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/svg/icon-x.svg" alt="Email" class="icon" />
         </a>
       </li>

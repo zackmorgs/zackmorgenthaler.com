@@ -148,11 +148,14 @@ a {
     right: 0;
     left: 0;
     bottom: 0;
-    width: 100%;
-
-    transition: transform 1s ease-in-out;
+    /* width: 100%; */
+    width:0px;
+    transition: width 0.3s ease-in-out, transform 1s ease-in-out, ;
 }
-
+.open #nav_links{
+    width: 100%;
+    transition: width 0.3s ease-in-out;
+}
 .nav-list {
     display: flex;
     flex-direction: column;
@@ -633,7 +636,8 @@ a {
     #nav_links {
         top: 0;
         position: relative;
-
+        width:initial;
+        transform: translateY(0);
     }
 
     .nav-list {

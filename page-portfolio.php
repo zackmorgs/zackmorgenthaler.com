@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="header">
-    <img id="portfolio_img" class="hero-img" src="/wp-content/themes/zackmorgenthaler.com/assets/img/zack_at_aasm.jpg"
+    <img id="portfolio_img" class="hero-img" src="/wp-content/themes/zackmorgenthaler.com/assets/img/zack_at_cities.jpg"
         alt="Zack Morgenthaler playing guitar." />
 </div>
 <section id="content_portfolio">

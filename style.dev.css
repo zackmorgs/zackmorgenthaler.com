@@ -124,6 +124,7 @@ a {
     background: transparent;
     padding: 1rem;
     color: #d71643;
+    font-weight: bold;
 }
 
 .open {

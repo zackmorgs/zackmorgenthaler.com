@@ -602,6 +602,9 @@ a {
     .post-list {
         padding: 1.5rem;
     }
+    .entry-title {
+        font-size: 4rem;
+    }
 }
 
 @media (min-width: 1280px) {

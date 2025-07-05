@@ -558,6 +558,11 @@ a {
     border-bottom: 1px solid #d71643;
 }
 
+.comment-awaiting-moderation {
+    color: #757575;
+    font-weight: bold;
+}
+
 @media (min-width: 640px) {
     .content {
         max-width: 50ch;

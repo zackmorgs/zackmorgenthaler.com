@@ -258,6 +258,13 @@ a {
 
 }
 
+.btn:hover {
+    transform:scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+.btn:active {
+    transform: scale(0.95);
+}
 
 .btn-primary {
     background-color: #0964e5;

@@ -2,22 +2,21 @@
 
 <div class="container">
   <header id="header_index" class="hero">
-    <a href="<?php echo esc_url(url: home_url(path: '/')); ?>">
-      <img id="photo_zack" src="<?php echo get_template_directory_uri(); ?>/assets/img/zack_leather.png"
-        alt="<?php bloginfo(show: 'name'); ?>" />
-      <div class="header-text">
-        <h1><?php bloginfo(show: 'name'); ?></h1>
-        <p>Programmer, Music Maker, and Artist</p>
-        <a href="/about/" class="btn btn-primary w-full">
-          About Me
-        </a>
-      </div>
-    </a>
+
+    <img id="photo_zack" src="<?php echo get_template_directory_uri(); ?>/assets/img/zack_leather.png"
+      alt="<?php bloginfo(show: 'name'); ?>" />
+    <div class="header-text">
+      <h1><?php bloginfo(show: 'name'); ?></h1>
+      <p>Programmer, Music Maker, and Artist</p>
+      <a href="/about/" class="btn btn-primary w-full">
+        About Me
+      </a>
+    </div>
   </header>
   <nav id="social_nav">
     <h3>Github</h3>
     <ul>
-      <li> <a class="btn w-full" href="https://github.com/zackmorgs/" target="_blank" rel="noopener noreferrer">
+      <li> <a class="btn btn-github" href="https://github.com/zackmorgs/" target="_blank" rel="noopener noreferrer">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/svg/icon-github.svg" alt="GitHub" class="icon" />
         </a>
       </li>

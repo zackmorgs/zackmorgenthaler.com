@@ -11,6 +11,10 @@
 <body <?php body_class(); ?>>
   <nav id="nav_main">
     <div class="nav-bar">
+      <a id="logo" href="/">
+        <h1>ZM</h1>
+      </a>
+
       <button id="nav_toggle" aria-label="Toggle navigation" aria-expanded="false">
         Menu
       </button>
@@ -23,16 +27,6 @@
           </a>
         </li>
         <li>
-          <a href="/blog/" class="nav-link">
-            Blog
-          </a>
-        </li>
-        <li>
-          <a href="/contact/" class="nav-link">
-            Contact
-          </a>
-        </li>
-        <li>
           <a href="/portfolio/" class="nav-link">
             Portfolio
           </a>
@@ -40,6 +34,16 @@
         <li>
           <a href="/music/" class="nav-link">
             Music
+          </a>
+        </li>
+        <li>
+          <a href="/blog/" class="nav-link">
+            Blog
+          </a>
+        </li>
+        <li>
+          <a href="/contact/" class="nav-link">
+            Contact
           </a>
         </li>
       </ul>

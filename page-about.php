@@ -3,7 +3,7 @@
     <img id="about_img" src="/wp-content/themes/zackmorgenthaler.com/assets/img/wedding_photo.jpg"
         alt="Zack Morgenthaler wedding photo." />
 </div>
-<section id="content_about" class="content">
+<section id="content_about">
     <article class="content">
         <?php
         if (have_posts()):

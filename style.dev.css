@@ -250,7 +250,6 @@ a {
     border: 2px solid #c5c5c5;
     text-decoration: none;
     font-family: 'Requiem', serif;
-    background:transparent;
     background-color: #ffffff;
     color: #201c29;
     border-radius: 0;
@@ -264,14 +263,14 @@ a {
 
 .btn:hover,
 .comment-reply-link:hover,
-.wp-element-button:hover {
+.wp-element-button.wp-block-button__link:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
 }
 
 .btn:active,
 .comment-reply-link:active,
-.wp-element-button:active {
+.wp-element-button.wp-block-button__link:active {
     transform: scale(0.95);
 }
 

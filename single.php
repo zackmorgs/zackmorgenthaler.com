@@ -1,23 +1,17 @@
 <?php get_header(); ?>
 
-<div id="primary" class="content-area">
-    <main id="main" class="site-main">
+<div class="container">
+    <main id="main" class="content">
         <?php
         while (have_posts()):
             the_post();
             ?>
             <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-                <header class="post-header content">
+                <header class="post-header">
 
                     <div class="post-info content-float">
                         <?php the_title(before: '<h1 class="entry-title">', after: '</h1>'); ?>
-                        <?php echo get_the_date(); ?> by <?php the_author(); ?>
-                        <br/>
-                        <br/>
-                        <a onclick="scrollToPost()" class="btn">
-                            <img src="<?php echo get_template_directory_uri(); ?>/svg/chevron_down.svg" alt="Email Icon"
-                                class="icon" />
-                        </a>
+                        <span id="post_date"><?php echo get_the_date(); ?></span> by <span id="post_author"><?php the_author(); ?></span>
                     </div>
                 </header>
 

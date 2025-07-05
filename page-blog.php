@@ -4,12 +4,14 @@ get_header(); ?>
 
 <main class="container">
     <section class="blog-posts">
-        <h3>Latest Posts</h3>
+        <header class="hero">
+            <h3 id="latest_posts">Latest Posts</h3>
+        </header>
         <div class="post-list">
             <?php
             // Query the last 3 posts
             $latest_posts = new WP_Query([
-                'posts_per_page' => 3
+                'posts_per_page' => 6
             ]);
 
             if ($latest_posts->have_posts()):

@@ -258,11 +258,13 @@ a {
 
 }
 
-.btn:hover {
+.btn:hover,
+.comment-reply-link:hover {
     transform:scale(1.05);
     transition: transform 0.3s ease-in-out;
 }
-.btn:active {
+.btn:active,
+.comment-reply-link:active {
     transform: scale(0.95);
 }
 

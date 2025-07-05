@@ -22,7 +22,10 @@ const handleActiveNavLink = () => {
     });
 };
 
+
+
 document.addEventListener('DOMContentLoaded', () => {
+    document.body.classList.toggle('loaded');
     handleNavState();
     handleActiveNavLink();
 });

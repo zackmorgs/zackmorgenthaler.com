@@ -250,10 +250,11 @@ a {
     border: 2px solid #c5c5c5;
     text-decoration: none;
     font-family: 'Requiem', serif;
+    background:transparent;
     background-color: #ffffff;
     color: #201c29;
     border-radius: 0;
-    
+
     .icon {
         max-width: 3.75rem;
     }

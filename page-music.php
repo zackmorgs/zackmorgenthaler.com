@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 <div class="header">
-    <img id="about_img" class="hero-img" src="/wp-content/themes/zackmorgenthaler.com/assets/img/wedding_photo.jpg"
-        alt="Zack Morgenthaler wedding photo." />
+    <img id="portfolio_img" class="hero-img" src="/wp-content/themes/zackmorgenthaler.com/assets/img/playing_guitar.jpg"
+        alt="Zack Morgenthaler playing guitar." />
 </div>
-<section id="content_about">
+<section id="content_portfolio">
     <article class="content">
         <?php
         if (have_posts()):

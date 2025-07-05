@@ -281,14 +281,14 @@ a {
     text-align: center;
 }
 
-#about_img {
+.hero-img {
     width: 100%;
     height: auto;
     padding: 1rem;
     border-radius: 50%;
     max-width: 60vw;
     margin: 1rem auto 0;
-    text-align: Center;
+    text-align: center;
 }
 
 .content {
@@ -393,7 +393,9 @@ a {
         max-width:24ch;
         margin:0 auto;
     }
-
+    .hero-img {
+        max-width:32ch;
+    }
 }
 
 @media (min-width: 1024px) {}

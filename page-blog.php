@@ -17,11 +17,13 @@ get_header(); ?>
             if ($latest_posts->have_posts()):
                 while ($latest_posts->have_posts()):
                     $latest_posts->the_post(); ?>
-                    <article class="post">
-                        <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                        <div class="meta"><?php the_time('F j, Y'); ?> by <?php the_author(); ?></div>
-                        <div class="excerpt"><?php the_excerpt(); ?></div>
-                    </article>
+                    <a href="<?php the_permalink(); ?>">
+                        <article class="post">
+                            <h2><?php the_title(); ?></h2>
+                            <div class="meta"><?php the_time('F j, Y'); ?> by <?php the_author(); ?></div>
+                            <div class="excerpt"><?php the_excerpt(); ?></div>
+                        </article>
+                    </a>
                 <?php endwhile;
                 wp_reset_postdata();
             else: ?>

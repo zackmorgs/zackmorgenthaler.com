@@ -54,6 +54,8 @@ p {
     font-weight: 400;
     margin: 1rem 0;
     line-height: 1.5em;
+    color: initial;
+
 }
 
 #header_index {
@@ -149,13 +151,15 @@ a {
     left: 0;
     bottom: 0;
     /* width: 100%; */
-    width:0px;
+    width: 0px;
     transition: width 0.3s ease-in-out, transform 1s ease-in-out, ;
 }
-.open #nav_links{
+
+.open #nav_links {
     width: 100%;
     transition: width 0.3s ease-in-out;
 }
+
 .nav-list {
     display: flex;
     flex-direction: column;
@@ -293,7 +297,8 @@ a {
     #submit,
     .wp-element-button.wp-block-button__link {
         opacity: 1;
-        transform: translateY(0%);;
+        transform: translateY(0%);
+        ;
     }
 }
 
@@ -453,7 +458,7 @@ a {
     background-color: #ffffffa3;
 
     .photo {
-        border-radius:50%;
+        border-radius: 50%;
     }
 }
 
@@ -645,7 +650,7 @@ a {
     #nav_links {
         top: 0;
         position: relative;
-        width:initial;
+        width: initial;
         transform: translateY(0);
     }
 

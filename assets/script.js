@@ -25,7 +25,7 @@ const handleActiveNavLink = () => {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-    document.body.classList.toggle('loaded');
+    // document.body.classList.toggle('loaded');
     handleNavState();
     handleActiveNavLink();
 });

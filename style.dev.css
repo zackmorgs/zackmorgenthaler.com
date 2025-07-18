@@ -266,8 +266,6 @@ a {
     background-color: #ffffff;
     color: #201c29;
     border-radius: 0;
-    opacity: 0;
-    transform: translateY(100%);
     transition: opacity 1s ease-in-out, transform 1s ease-in-out;
 
 
@@ -541,14 +539,8 @@ a {
 
 .comment-reply-link {}
 
-#photo_zack {
-    opacity: 0.0;
-}
 
-.loaded #photo_zack {
-    opacity: 1;
-    transition: opacity 0.3s ease-in-out;
-}
+
 
 #cancel-comment-reply-link {
     color: black;

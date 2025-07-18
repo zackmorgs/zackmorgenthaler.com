@@ -94,13 +94,7 @@ a {
     right: 0;
     left: 0;
     z-index: 100;
-    transform: translateY(-100%);
-    transition: transform 1s ease-in-out;
-}
 
-.loaded #nav_main {
-    transform: translateY(0);
-    transition: transform 0.3s ease-in-out;
 }
 
 .nav-bar {
@@ -231,7 +225,7 @@ a {
     padding: 1rem 1rem;
     text-align: center;
     /* opacity: 0.0; */
-    transform: translateY(-100%);
+
 
     h1 {
 
@@ -246,11 +240,6 @@ a {
     }
 }
 
-.loaded .header-text {
-    opacity: 1;
-    transform: translateY(0);
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
 
 #social_nav {
     padding: 1rem;

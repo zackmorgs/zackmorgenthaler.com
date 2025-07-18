@@ -31,4 +31,4 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // hande ScrollReveal
-ScrollReveal().reveal('.header, img, h1, h2, h3, h4, h5, h6, p, .wp-block-list, #footer_main');
+ScrollReveal().reveal('.header, .btn, img, h1, h2, h3, h4, h5, h6, p, .wp-block-list, #footer_main');

@@ -394,7 +394,6 @@ a {
         scroll-snap-align: start;
         border-radius: 0.5rem;
         min-width: 32ch;
-        max-height: 38ch;
         background: white;
         margin: 1rem 0.5rem;
     }

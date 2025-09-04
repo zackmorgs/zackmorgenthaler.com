@@ -30,5 +30,5 @@ document.addEventListener('DOMContentLoaded', () => {
     handleActiveNavLink();
 });
 
-// hande ScrollReveal
-ScrollReveal().reveal('.header, .wp-block-list, #footer_main');
+// // hande ScrollReveal
+// ScrollReveal().reveal('.header, .wp-block-list, #footer_main');
